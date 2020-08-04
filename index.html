@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRAWING APP</title>
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="header">
+        DRAW YOUR CREATIVITY
+    </div>
+    <div class="options">
+        <span class="option">Choose Colour <input type="color" name="color" id="color"></span>
+        <span class="option">Choose thickness <input type="range" name="range" min="1" max="40" value="1" id="slider"></span>
+        <span class="option" id="box"></span>
+    </div>
+    <div class="area">
+        <canvas id="canvas"></canvas>
+    </div>
+    <div class="erase">Erase</div>
+    <div class="save">Save</div>
+    <div class="reset">Reset</div>
+
+</body>
+<script src="/js/jquery.js"></script>
+<script src="/js/script.js"></script>
+
+</html>
